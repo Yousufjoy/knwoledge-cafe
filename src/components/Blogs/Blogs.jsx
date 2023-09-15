@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Blog from "../Blog/Blog";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -10,7 +11,13 @@ const Blogs = () => {
     );
   }, []);
 
-  return <div></div>;
+  return (
+    <div className="md: w-2/3">
+      {blogs.map((blog) => {
+        return <Blog blog={blog} />;
+      })}
+    </div>
+  );
 };
 
 export default Blogs;
