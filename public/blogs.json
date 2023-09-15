@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "12345",
+    "cover": "https://example.com/book1.jpg",
+    "title": "The Secret Garden",
+    "author": "Jane Doe",
+    "author_img": "https://i.ibb.co/pxRbZK9/business-women-signature-document.jpg",
+    "posted_date": "2023-09-16",
+    "reading_time": 21,
+    "hashtags": ["fiction", "gardening", "classic"]
+  },
+  {
+    "Id": "67890",
+    "cover": "https://i.ibb.co/pxRbZK9/business-women-signature-document.jpg",
+    "title": "The Enchanted Forest",
+    "author": "John Smith",
+    "author_img": "https://example.com/johnsmith.jpg",
+    "posted_date": "2023-09-15",
+    "reading_time": 13,
+    "hashtags": ["fantasy", "adventure", "magic"]
+  },
+  {
+    "Id": "54321",
+    "cover": "https://i.ibb.co/pxRbZK9/business-women-signature-document.jpg",
+    "title": "Mystery Mansion",
+    "author": "Sara Johnson",
+    "author_img": "https://example.com/sarajohnson.jpg",
+    "posted_date": "2023-09-14",
+    "reading_time": 7,
+    "hashtags": ["mystery", "thriller", "detective"]
+  },
+  {
+    "Id": "98765",
+    "cover": "https://i.ibb.co/pxRbZK9/business-women-signature-document.jpg",
+    "title": "Science Explorers",
+    "author": "David Williams",
+    "author_img": "https://example.com/davidwilliams.jpg",
+    "posted_date": "2023-09-13",
+    "reading_time": 2,
+    "hashtags": ["science", "education", "exploration"]
+  },
+  {
+    "Id": "13579",
+    "cover": "https://i.ibb.co/pxRbZK9/business-women-signature-document.jpg",
+    "title": "Love and Roses",
+    "author": "Emily Clark",
+    "author_img": "https://example.com/emilyclark.jpg",
+    "posted_date": "2023-09-12",
+    "reading_time": 9,
+    "hashtags": ["romance", "love", "flowers"]
+  }
+]
