@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = ({ blog, handleBookmark }) => {
+const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
   const {
     title,
     cover,
@@ -23,7 +23,12 @@ const Blog = ({ blog, handleBookmark }) => {
         </div>
         <div>
           <span>{reading_time} min read</span>
-          <button className="ml-2 text-red-600 2xl" onClick={handleBookmark}>
+          <button
+            className="ml-2 text-red-600 2xl"
+            onClick={() => {
+              handleBookmark(blog.title);
+            }}
+          >
             Bookmark
           </button>
         </div>
@@ -38,6 +43,14 @@ const Blog = ({ blog, handleBookmark }) => {
           );
         })}
       </p>
+      <button
+        className="text-purple-600 font-bold underline"
+        onClick={() => {
+          handleMarkAsRead(reading_time);
+        }}
+      >
+        Mark as read
+      </button>
     </div>
   );
 };
