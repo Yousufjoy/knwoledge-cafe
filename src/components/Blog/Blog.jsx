@@ -2,6 +2,7 @@ import React from "react";
 
 const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
   const {
+    id,
     title,
     cover,
     reading_time,
@@ -46,7 +47,7 @@ const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
       <button
         className="text-purple-600 font-bold underline"
         onClick={() => {
-          handleMarkAsRead(reading_time);
+          handleMarkAsRead(reading_time, id);
         }}
       >
         Mark as read
